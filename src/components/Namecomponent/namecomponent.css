@@ -1,0 +1,84 @@
+.myDiv {
+    position: relative; 
+    width: fit-content; 
+    height: fit-content; 
+    background-color: white; 
+    margin: 20px; 
+    border: 1px solid blue;
+    padding: 10px 0px 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin: 0;
+    text-align: center;
+    font-size: 95.703px;
+    font-style: normal;
+    line-height: 60%;
+    font-weight: 400;
+    letter-spacing: -1.436px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 1px;
+}
+
+.namestyles{
+    color: var(--PortBlue, #3F8AE2);
+    font-size: 95.703px;
+    letter-spacing: -1.436px;
+}
+
+
+.descstyles{
+    color: #888;
+    font-size: 48.639px;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    letter-spacing: -0.73px;
+}
+
+.myDiv::before, .myDiv::after, .myDiv span::before, .myDiv span::after {
+    content: '';
+    position: absolute;
+    width: 20px; 
+    height: 20px; 
+    background-color: white; 
+    border: 1px solid blue;
+}
+
+/* Top left corner */
+.myDiv::before {
+    top: -10px; 
+    left: -10px;
+}
+
+/* Top right corner */
+.myDiv::after {
+    top: -10px;
+    right: -10px;
+}
+
+/* Bottom left corner */
+.myDiv span:first-child::before {
+    bottom: -10px;
+    left: -10px;
+}
+
+/* Bottom right corner */
+.myDiv span:first-child::after {
+    bottom: -10px;
+    right: -10px;
+}
+
+/* Additional styling to ensure the spans don't affect layout */
+.myDiv span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,45 @@
+.overall-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .topdownmargin-container{
+    border-top:.5px solid var(--variable-collection-portgrey);
+    border-bottom:.5px solid var(--variable-collection-portgrey);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+
+
+.leftrightmargin-container{
+    border-left:.5px solid var(--variable-collection-portgrey);
+    border-right:.5px solid var(--variable-collection-portgrey);
+    width:max-content;
+    position: absolute;
+    height:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.typewriter-container{
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+    position:relative;
+    border-radius:50px 50px 50px 50px ;
+    padding: 12.5px 25px;   
+}
+
+span{
+    color: #1A1A1A; 
+    font-size:large;
+    font-weight: bold;
+}
+

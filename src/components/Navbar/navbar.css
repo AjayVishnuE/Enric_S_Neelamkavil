@@ -1,0 +1,53 @@
+
+.navbar{
+    background-color: white;
+    height: 108px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-items-container{
+    border-top: 0.5px solid var(--variable-collection-portgrey);
+    border-bottom: 0.5px solid var(--variable-collection-portgrey);
+    height: 18px;
+    width: 100%;
+    display: flex;
+    gap:5%;
+    justify-content: center;
+    align-items: center;   
+}
+
+.navbar-items{
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left:0.5px solid var(--variable-collection-portgrey);
+    border-right:0.5px solid var(--variable-collection-portgrey);
+}
+
+#nav-text {
+    font-family: 'Red Hat Display';
+    position: relative;
+    font-size: 21.2px;  
+    font-weight: 400;
+    color: #1A1A1A;
+    padding: 0;
+    margin:2px 0 0 0;
+}
+    
+    
+.navbar-item .text-wrapper {
+    font-size: 21.2px;
+    left: 0;
+    letter-spacing: -0.32px;
+    line-height: 21.2px;
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+    }
