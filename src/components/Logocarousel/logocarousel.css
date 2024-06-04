@@ -1,0 +1,30 @@
+.right-slider {
+	background: var(--PortBlack, #1A1A1A);
+	padding: 25px 0 ;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+}
+
+.right-slide-track {
+    display: flex;
+    animation: scroll linear infinite;
+    will-change: transform;
+}
+
+.right-slide {
+    flex: 0 0 auto;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.beachhack-slider-imgs {
+    width: auto;
+    height: 50px; 
+    display: block;
+	padding: 0 25px;
+}

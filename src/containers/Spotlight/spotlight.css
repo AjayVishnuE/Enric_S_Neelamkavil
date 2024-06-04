@@ -5,6 +5,9 @@
     align-items: center;
     height: 100vh;
     width: 100%;
+    background-image: 
+        linear-gradient(to right, var(--variable-collection-portgrey) 0.5px, transparent 0.5px),
+        linear-gradient(to bottom, var(--variable-collection-portgrey) 0.5px, transparent 0.5px);
 }
 
 .button-overall-container{
@@ -12,8 +15,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
     gap: 5%;
+    border-top:0.5px solid var(--variable-collection-portgrey);
+    border-bottom:0.5px solid var(--variable-collection-portgrey);
 }
 
 .downloadbutton{
@@ -25,11 +29,12 @@
     border-radius: 38.29px;
     border: 1.276px solid var(--PortGrey, #CCC);
     color: var(--PortBlack, #1A1A1A);
-    font-size: 20.029px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.3px;
+    width:max-content;
 }
 
 .contactbutton{
@@ -41,9 +46,16 @@
     border-radius: 38.29px;
     background: var(--PortBlue, #3F8AE2);
     color: var(--PortWhite, #FFF);
-    font-size: 20.029px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.3px;
+    width:max-content;
+}
+
+.leftrightlinediv{
+    width: 100%;
+    border-top:0.5px solid var(--variable-collection-portgrey);
+    border-bottom:0.5px solid var(--variable-collection-portgrey);
 }
