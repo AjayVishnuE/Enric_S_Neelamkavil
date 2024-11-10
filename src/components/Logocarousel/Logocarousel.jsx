@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import './logocarousel.css';
+import {images} from "../../constants/constants";
 
 import BH1 from "../../assets/orglogoslider/aproit.svg";
 import BH2 from '../../assets/orglogoslider/cce.svg';
@@ -11,7 +12,6 @@ import BH7 from '../../assets/orglogoslider/unnathi.svg';
 import BH8 from '../../assets/orglogoslider/µLearn.svg';
 
 function LogoCarousel() {
-    const images = [BH1, BH2, BH3, BH4, BH5, BH6, BH7, BH8];
     const duplicatedImages = [...images, ...images, ...images];
     const slideTrackRef = useRef(null);
 
@@ -36,7 +36,7 @@ function LogoCarousel() {
             <div className="right-slide-track" ref={slideTrackRef}>
                 {duplicatedImages.map((src, index) => (
                     <div className="right-slide" key={index}>
-                        <img className="beachhack-slider-imgs" src={src} alt={`Slide ${index}`} />
+                        <img className="slider-imgs" src={src} alt={`Slide ${index}`} />
                     </div>
                 ))}
             </div>

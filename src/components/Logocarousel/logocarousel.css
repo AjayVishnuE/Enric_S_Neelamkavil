@@ -1,6 +1,6 @@
 .right-slider {
 	background: var(--PortBlack, #1A1A1A);
-	padding: 25px 0 ;
+	padding: 30px 0 ;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
@@ -22,9 +22,9 @@
     to { transform: translateX(-50%); }
 }
 
-.beachhack-slider-imgs {
+.slider-imgs {
     width: auto;
-    height: 50px; 
+    height: 28px; 
     display: block;
-	padding: 0 25px;
+	padding: 0 45px;
 }

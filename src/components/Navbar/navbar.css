@@ -1,10 +1,11 @@
 
 .navbar{
     background-color: white;
-    height: 108px;
+    padding-left: 50px;
+    height: 80px;
     width: 100%;
-    position: absolute;
-    z-index: 10;
+    position: fixed;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +24,7 @@
 }
 
 .navbar-items{
-    height: 108px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +35,7 @@
 #nav-text {
     font-family: 'Red Hat Display';
     position: relative;
-    font-size: 21.2px;  
+    font-size: 18px;  
     font-weight: 400;
     color: #1A1A1A;
     padding: 0;

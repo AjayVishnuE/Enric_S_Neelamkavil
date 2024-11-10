@@ -1,23 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+
 .spotlight{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    overflow: hidden;
     background-image: 
+        url('../../assets/Spotlight/BG_spotlight.svg'),
         linear-gradient(to right, var(--variable-collection-portgrey) 0.5px, transparent 0.5px),
         linear-gradient(to bottom, var(--variable-collection-portgrey) 0.5px, transparent 0.5px);
+    background-size: cover, auto, auto;
+    background-repeat: no-repeat, repeat, repeat;
+    background-position: center, left center, left center; 
+    }
+
+
+
+.helloloopcontainer{
+margin-top: 250px;    
+}
+.nc-container{
 }
 
-.button-overall-container{
-    margin: 30px 0 0 0;
+.button-overall-container1{
+    margin: 20px 0 0 0;
+    width: 100vw;
+    margin-left: -25px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 5%;
-    border-top:0.5px solid var(--variable-collection-portgrey);
-    border-bottom:0.5px solid var(--variable-collection-portgrey);
 }
 
 .downloadbutton{
@@ -29,7 +49,7 @@
     border-radius: 38.29px;
     border: 1.276px solid var(--PortGrey, #CCC);
     color: var(--PortBlack, #1A1A1A);
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -46,7 +66,7 @@
     border-radius: 38.29px;
     background: var(--PortBlue, #3F8AE2);
     color: var(--PortWhite, #FFF);
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -54,8 +74,115 @@
     width:max-content;
 }
 
-.leftrightlinediv{
+.rc-container{
+    margin-top: 30px;
+}
+
+.leftrightlinediv1{
+    /* border-top:0.5px solid var(--variable-collection-portgrey);
+    border-bottom:0.5px solid var(--variable-collection-portgrey); */
+}
+
+
+
+
+/* half-rectangle-top-right */
+
+.half-rectangle-topright-container{
+    position: absolute;
+    transform: rotate(-180deg);
+    right: -15%;
+    top:-80px;
+}
+
+.half-rectangle-topright{
+    width: 500px;
+    height: 200px;
+    border: 1.178px solid var(--PortBlue, #3f8be2a7);   
+}
+
+
+.half-rectangle-topright::before, .half-rectangle-topright::after, .half-rectangle-topright span::before, .half-rectangle-topright span::after {
+    content: '';
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: white; 
+    border: 1.178px solid var(--PortBlue, #3f8be2ab);   
+}
+
+/* Top left corner */
+.half-rectangle-topright::before {
+    top: -5px; 
+    left: -5px;
+}
+
+/* Top right corner */
+.half-rectangle-topright::after {
+    top: -5px;
+    right: -5px;
+}
+
+/* Bottom left corner */
+.half-rectangle-topright span:first-child::before {
+    bottom: -5px;
+    left: -5px;
+}
+
+/* Bottom right corner */
+.half-rectangle-topright span:first-child::after {
+    bottom: -5px;
+    right: -5px;
+}
+
+/* Additional styling to ensure the spans don't affect layout */
+
+
+
+/* half-rectangle-left */
+
+.half-rectangle-left-container{
+    position: absolute;
+    transform: rotate(-270deg);
+    left: -15%;
+    margin-top: 55px;
+}
+
+.half-rectangle-left{
+    width: 400px;
+    height: 200px;
+    left: 0;
+    border: 1.178px solid var(--PortBlue, #3f8be2a3);   
+}
+
+.half-rectangle-left-container::before, .half-rectangle-left-container::after, .half-rectangle-left-container span::before, .half-rectangle-left-container span::after {
+    content: '';
+    position: absolute;
+    width: 10px; 
+    height: 10px; 
+    background-color: white; 
+    border: 1.178px solid var(--PortBlue, #3f8be2a9);   
+
+}
+
+/* Top left corner */
+.half-rectangle-left-container::before {
+    top: -5px; 
+    left: -5px;
+}
+
+/* Top right corner */
+.half-rectangle-left-container::after {
+    top: -5px;
+    right: -5px;
+}
+
+/* Additional styling to ensure the spans don't affect layout */
+.half-rectangle-left-container span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    border-top:0.5px solid var(--variable-collection-portgrey);
-    border-bottom:0.5px solid var(--variable-collection-portgrey);
+    height: 100%;
 }

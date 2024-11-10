@@ -1,9 +1,9 @@
 import React from "react";
 import "./rolescomponent.css";
-import bottomlogo1 from '../../assets/blackpointer_spotlight.svg';
-import bottomlogo2 from '../../assets/blackbeam_spotlight.svg';
-import bottomlogo3 from '../../assets/black4sidedvector_spotlight.svg';
-import bottomlogo4 from '../../assets/blackhand_spotlight.svg';
+import bottomlogo1 from '../../assets/Spotlight/blackpointer_spotlight.svg';
+import bottomlogo2 from '../../assets/Spotlight/blackbeam_spotlight.svg';
+import bottomlogo3 from '../../assets/Spotlight/black4sidedvector_spotlight.svg';
+import bottomlogo4 from '../../assets/Spotlight/blackhand_spotlight.svg';
 
 function Rolescomponent(){
     return (

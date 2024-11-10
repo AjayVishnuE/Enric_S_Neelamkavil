@@ -4,7 +4,7 @@
     height: fit-content; 
     background-color: white; 
     margin: 20px; 
-    border: 1px solid blue;
+    border: 1.178px solid var(--PortBlue, #3F8AE2);   
     padding: 10px 0px 0px 0;
     display: flex;
     justify-content: center;
@@ -20,20 +20,20 @@
     font-weight: 400;
     letter-spacing: -1.436px;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: #3F8AE2;
     text-decoration-thickness: 1px;
 }
 
 .namestyles{
     color: var(--PortBlue, #3F8AE2);
-    font-size: 95.703px;
-    letter-spacing: -1.436px;
+    font-size: 85.703px;
+    letter-spacing: -1.336px;
 }
 
 
 .descstyles{
     color: #888;
-    font-size: 48.639px;
+    font-size: 42.639px;
     margin: 0;
     padding: 0;
     height: 48px;
@@ -43,34 +43,34 @@
 .myDiv::before, .myDiv::after, .myDiv span::before, .myDiv span::after {
     content: '';
     position: absolute;
-    width: 20px; 
-    height: 20px; 
+    width: 10px; 
+    height: 10px; 
     background-color: white; 
-    border: 1px solid blue;
+    border: 1.178px solid var(--PortBlue, #3F8AE2);   
 }
 
 /* Top left corner */
 .myDiv::before {
-    top: -10px; 
-    left: -10px;
+    top: -5px; 
+    left: -5px;
 }
 
 /* Top right corner */
 .myDiv::after {
-    top: -10px;
-    right: -10px;
+    top: -5px;
+    right: -5px;
 }
 
 /* Bottom left corner */
 .myDiv span:first-child::before {
-    bottom: -10px;
-    left: -10px;
+    bottom: -5px;
+    left: -5px;
 }
 
 /* Bottom right corner */
 .myDiv span:first-child::after {
-    bottom: -10px;
-    right: -10px;
+    bottom: -5px;
+    right: -5px;
 }
 
 /* Additional styling to ensure the spans don't affect layout */
