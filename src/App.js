@@ -1,5 +1,6 @@
 import './App.css';
 import {Footer, Navbar, LogoCarousel} from './components';
+import CopyrightsLine from './components/CopyrightsLine/CopyrightsLine';
 import {ConnectSection, Figmaui, MeInSheet, Spotlight, Whoami} from './containers';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MeInSheet/>
       <ConnectSection/>
       <Footer/>
+      <CopyrightsLine/>
     </div>
   );
 }

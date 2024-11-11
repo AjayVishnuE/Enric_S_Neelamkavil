@@ -1,0 +1,28 @@
+.copyrights-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: var(--PortBlack, #1A1A1A);
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 24px */
+}
+
+.copyrights-name{
+    color: #888;
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%; /* 24px */
+}
+
+.copyrights-name:hover{
+    color:var(--portBlue, #3F8AE2)
+}

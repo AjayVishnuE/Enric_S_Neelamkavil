@@ -9,4 +9,3 @@ export { default as FigmaCenter } from './FigamCenter/FigmaCenter';
 export { default as FigmaLeftSide } from './FigmaLeftSide/FigmaLeftSide';
 export { default as FigmaRightSide } from './FigmaRightSide/FigmaRightSide';
 export { default as Footer } from './Footer/Footer';
-
