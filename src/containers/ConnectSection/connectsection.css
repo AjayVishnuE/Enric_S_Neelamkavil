@@ -55,9 +55,7 @@
     padding: 0;
     color: var(--PortBlack, #1A1A1A);
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #3F8AE2;
-    text-decoration-thickness: 0.1px;
+
     font-family: "Red Hat Display";
     font-size: 60.642px;
     font-style: normal;
@@ -71,8 +69,8 @@
 }
 
 .cwm-phone-label-1 {
-    -webkit-text-stroke: 1px #3F8AE2; /* Adjust the stroke width and ensure the color code is correct */
-    font-family: "Red Hat Display", sans-serif; /* Fallback font */
+    -webkit-text-stroke: 1px #3F8AE2; 
+    font-family: "Red Hat Display", sans-serif; 
     font-size: 73.683px;
     color: transparent;
     font-style: normal;
@@ -82,13 +80,13 @@
 
 .cwm-phone-label-2 {
     text-align: center;
-    -webkit-text-stroke: 1px #1A1A1A; /* Adjust the stroke width and ensure the color code is correct */
-    font-family: "Red Hat Display", sans-serif; /* Fallback font */
+    -webkit-text-stroke: 1px #1A1A1A; 
+    font-family: "Red Hat Display", sans-serif; 
     font-size: 73.683px;
     color: transparent;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 83.683px */
+    line-height: 100%; 
 }
 
 .connectwithme-logos-container{
@@ -107,4 +105,18 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+}
+
+.color-change-svg path {
+    transition: fill 0.3s ease, stroke 0.3s ease; 
+}
+
+.color-change-svg:hover path {
+    fill: #3F8AE2; 
+    stroke: #3F8AE2; 
+}
+
+
+.color-change-svg:hover rect {
+    stroke: #3F8AE2; 
 }
