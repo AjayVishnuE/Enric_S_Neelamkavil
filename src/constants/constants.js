@@ -6,10 +6,16 @@ import c5 from '../assets/orglogoslider/opengrad.svg';
 import c6 from '../assets/orglogoslider/sarahstechno.svg';
 import c7 from '../assets/orglogoslider/unnathi.svg';
 import c8 from '../assets/orglogoslider/µLearn.svg';
-import { award_image } from "./imports";
-
+import Poster from '../assets/FigmaUi/Posters.png';
+import UI from '../assets/FigmaUi/UserInterface.png';
+import Branding from '../assets/FigmaUi/Branding.png';
+import Logos from '../assets/FigmaUi/Logos.png';
+import Printables from '../assets/FigmaUi/Printables.png';
+import { award_image, Arrow1, Arrow2, Arrow3, Arrow4, Arrow5, resume, li, insta, me, fb, yt, x } from "./imports";
 
 export const navdataset = ["Home","About","Works","Resume","Contact"];
+
+export const Resume1 = resume;
 
 export const spotlightdata = {
     name: "Enric S Neelamkavil",
@@ -31,4 +37,24 @@ export const whoamidata = {
     award_img_caption_line1: "Huddle Designers",
     award_img_caption_line2: "Award 2023",
     award_description : "Huddle Designers Award 2023 for securing the position in Top 13 Designers for designing KELP KOOKIES in Branding Challenge during India's largest Beachside Startup Festival - Huddle Global hosted by Kerala Startup Mission.",
+}
+
+export const FigmaUI_Center={
+    abbreviations : ["P","U","B","L","P"],
+    images : [Poster, Branding, Printables, UI, Logos],
+    image_desc: ["Posters", "Branding", "Printables", "User Interface", "Logos"],
+    colorset : ["#FC72FF", "#0ACF83", "#3A7DFF", "#A259FF", "#F11E37"],
+    arrows : [ Arrow1, Arrow2, Arrow3, Arrow4, Arrow5 ]
+}
+
+export const ConnectSectionData = {
+    email:"enricsneelamkavil@gmail.com",
+    phone_conutry_code:"+91",
+    phone:"94007 43624",
+    linkedin:{logo: li, link:"https://linkedin.com/in/enricsneelamkavil"},
+    instagram:{logo: insta, link:"https://www.instagram.com/enricsneelamkavil/"},
+    medium:{logo: me, link:"https://medium.com/@enricsneelamkavil"},
+    faceboook:{logo: fb, link:"https://www.facebook.com/enricsneelamkavil"},
+    youtube:{logo: yt, link:"https://www.youtube.com/@enricsneelamkavil"},
+    x:{logo: x, link:"https://twitter.com/enricneels"}
 }

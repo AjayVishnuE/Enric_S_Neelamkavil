@@ -1,8 +1,6 @@
 import './App.css';
-import {Navbar} from './components';
-import LogoCarousel from './components/Logocarousel/Logocarousel';
-import {Figmaui, Spotlight, Whoami} from './containers';
-
+import {Footer, Navbar, LogoCarousel} from './components';
+import {ConnectSection, Figmaui, MeInSheet, Spotlight, Whoami} from './containers';
 
 function App() {
   return (
@@ -12,6 +10,9 @@ function App() {
       <LogoCarousel/>
       <Whoami/>
       <Figmaui/>
+      <MeInSheet/>
+      <ConnectSection/>
+      <Footer/>
     </div>
   );
 }

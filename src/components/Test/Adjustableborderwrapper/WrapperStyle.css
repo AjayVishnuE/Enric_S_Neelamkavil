@@ -1,7 +1,0 @@
-.border-wrapper {
-    border: 2px solid #000; /* Example border style */
-    display: inline-block; /* Adjusts size to fit content */
-    padding: 5px; /* Optional padding */
-    transition: width 0.5s ease, height 0.5s ease; /* Smooth transition for size changes */
-    box-sizing: border-box;
-}
