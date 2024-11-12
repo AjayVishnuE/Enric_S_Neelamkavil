@@ -42,9 +42,10 @@ margin-top: 250px;
 
 .downloadbutton{
     display: flex;
-    padding: 16.489px 28.267px;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    height: 60px;
+    width: 220px;
     gap: 6.382px;
     border-radius: 38.29px;
     border: 1.276px solid var(--PortGrey, #CCC);
@@ -54,12 +55,12 @@ margin-top: 250px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.3px;
-    width:max-content;
 }
 
 .contactbutton{
     display: flex;
-    padding: 16.489px 28.267px;
+    height: 60px;
+    width: 220px;
     justify-content: center;
     align-items: center;
     gap: 6.382px;
@@ -71,7 +72,6 @@ margin-top: 250px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: -0.3px;
-    width:max-content;
 }
 
 .rc-container{
@@ -185,4 +185,85 @@ margin-top: 250px;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1200px) {
+    .half-rectangle-left-container{
+        left: -20%;
+    }
+}
+
+@media (max-width: 960px) {
+    .half-rectangle-left-container{
+        left: -25%;
+    }
+
+    .half-rectangle-topright-container{
+        right: -25%;
+    }
+}
+
+@media (max-width: 770px) {
+    .half-rectangle-left-container{
+        left: -35%;
+    }
+    .half-rectangle-topright-container{
+        right: -35%;
+    }
+}
+
+@media (max-width: 670px) {
+    .helloloopcontainer{
+        margin-top: 250px;    
+    }
+    .button-overall-container1{
+        flex-wrap: wrap;
+    }
+    .half-rectangle-left-container{
+        display: none;
+    }
+    .half-rectangle-topright-container{
+        display: none;
+    }  
+
+    .rc-container{
+        margin-top: 90px;
+    }
+    .downloadbutton{
+        height: 50px;
+        width: 165px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.3px;
+    }
+    
+    .contactbutton{
+        height: 50px;
+        width: 165px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: -0.3px;
+    }
+}
+
+@media (max-width: 450px) {
+    .helloloopcontainer{
+        margin-top: 150px;    
+    }
+    .button-overall-container1{
+        flex-wrap: wrap;
+        margin-left: 0px;
+        gap: 20px;
+    }
+
+    .rc-container{
+        margin-top: 150px;
+    }
+}
+@media (max-height: 800px) and (max-width: 400px) {
+    .rc-container {
+        margin-top: -0px;
+    }
 }

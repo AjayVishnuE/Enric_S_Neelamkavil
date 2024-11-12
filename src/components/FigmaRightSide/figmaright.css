@@ -1,6 +1,7 @@
 .figmaright-overall-container{
     background-color: var(--PortWhite, #FFF);
     width: 18%;
+    margin-bottom: 100px;
 }
 
 .color-change-svg path{
@@ -73,16 +74,16 @@
     color: var(--PortBlack, #1A1A1A);
     padding-left: 10px;
     font-family: "Red Hat Display";
-    font-size: 14.687px;
+    font-size: 13.687px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 520;
     line-height: 21.363px; /* 145.455% */
     letter-spacing: 0.073px;
 }
 
 .figmaright-div3-div2{
     padding-left: 20px;
-    height: 40px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -116,7 +117,7 @@
 
 .figmaright-div3-div3{
     padding-left: 20px;
-    height: 40px;
+    height: 30px;
     display: flex;
     align-items: center;
     margin-left: -6px;
@@ -125,7 +126,7 @@
 }
 
 .figmaright-div3-div4{
-    height: 40px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
@@ -214,6 +215,10 @@
     justify-content: space-between;
 }
 
+.frame-flex{
+    display: flex;
+}
+
 .figmaright-div7{
     padding: 0 10px;
     height: 40px;
@@ -237,4 +242,15 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
+}
+
+@media (max-width: 1500px){
+    .figmaright-div3-div2{
+        padding-left: 15px;
+    }
+
+    .frameycomp{
+        padding-left: 0px;
+    }
+    
 }

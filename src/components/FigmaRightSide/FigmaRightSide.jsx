@@ -104,7 +104,7 @@ function FigmaRightSide() {
             <div>
                 <p style={{fontSize:"12px"}}>64.5%</p>
             </div>
-            <div>
+            <div className='frame-flex'>
                 <FrameFillIcon2/>
                 <FrameMinus/>
             </div>
@@ -117,7 +117,7 @@ function FigmaRightSide() {
             <div>
                 <p style={{fontSize:"12px", color:"#c0bdbd"}}>100%</p>
             </div>
-            <div>
+            <div className='frame-flex'>
                 <FrameFillIcon3/>
                 <FrameMinus/>
             </div>

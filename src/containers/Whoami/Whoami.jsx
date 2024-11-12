@@ -36,7 +36,7 @@ function Whoami() {
         <img className='tic-img' src={li} alt="" />
       </div>
       <div className='flex-div-hg'>
-        <div className='hga image-square-frame'>
+        <div className='hga image-square-frame-always'>
           <span></span>
           {whoamidata.award_image}
           <p style={{margin:0, padding:0}}>

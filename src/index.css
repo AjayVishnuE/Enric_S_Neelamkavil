@@ -25,3 +25,48 @@ html {
   scrollbar-width: none;  /* Firefox */
   overflow-y: scroll;  /* Important for keeping layout stable even without a scrollbar */
 }
+
+
+.image-square-frame-always{
+  position: relative; 
+  width: fit-content; 
+  height: fit-content; 
+  background-color: white; 
+  border: 1.178px solid var(--PortBlue, #3F8AE2);   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-square-frame-always::before, .image-square-frame-always::after, .image-square-frame-always span::before, .image-square-frame-always span::after {
+  content: '';
+  position: absolute;
+  width: 10px; 
+  height: 10px; 
+  background-color: white; 
+  border: 1.178px solid var(--PortBlue, #3F8AE2);   
+}
+
+/* Top left corner */
+.image-square-frame-always::before {
+  top: -5px; 
+  left: -5px;
+}
+
+/* Top right corner */
+.image-square-frame-always::after {    
+  top: -5px;
+  right: -5px;
+}
+
+/* Bottom left corner */
+.image-square-frame-always span:first-child::before {
+  bottom: -5px;
+  left: -5px;
+}
+
+/* Bottom right corner */
+.image-square-frame-always span:first-child::after {
+  bottom: -5px;
+  right: -5px;
+}

@@ -10,13 +10,63 @@
 }
 
 /* Position each logo explicitly */
-.logo-1 { width: 58.889px; height: auto;bottom: 130px; left: 350px; }
-.logo-2 { width: 70.8px; height: auto;bottom: 190px; right: 330px; }
+.logo-1 { width: 58.889px; height: auto;bottom: 140px; left: 300px; }
+.logo-2 { width: 70.8px; height: auto;bottom: 160px; right: 330px; }
 .logo-3 { width: 40.1px; height: 54.764px; top: 250px; left: 400px; }
 .logo-4 { width: 50.74px; height: 50.74px;top: 150px; left: 48.5vw; }
 .logo-5 { width: 62.364px; height: 44.017px; top: 220px; right:380px; }
-.logo-6 { width: 38.867px; height: 35.226px;top: 500px; right:  120px; } /* Ensure there's enough space in the container */
+.logo-6 { width: 38.867px; height: 35.226px;top: 500px; right:  120px; } 
 .logo-7 { width: 14.844px; height: 14.844px; top: 190.36px; left: 174.51px; }
+
+
+
+@media (max-width: 1270px) {
+  .logo-1 { width: 58.889px; height: auto;bottom: 140px; left: 250px; }
+  .logo-2 { width: 70.8px; height: auto;bottom: 140px; right: 260px; }
+  .logo-3 { width: 40.1px; height: 54.764px; top: 250px; left: 200px; }
+  .logo-5 { width: 62.364px; height: 44.017px; top: 220px; right:180px; }
+  .logo-6 { width: 38.867px; height: 35.226px;top: 500px; right:  50px; } 
+  .logo-7 { width: 14.844px; height: 14.844px; top: 190.36px; left: 74.51px; }
+}
+
+@media (max-width: 900px) {
+  .logo-1 { width: 58.889px; height: auto;bottom: 180px; left: 120px; }
+  .logo-2 { width: 70.8px; height: auto;bottom: 180px; right: 140px; }
+  .logo-3 { width: 40.1px; height: 54.764px; top: 180px; left: 150px; }
+  .logo-4 { width: 50.74px; height: 50.74px;top: 150px; left: 48.5vw; }
+  .logo-5 { width: 62.364px; height: 44.017px; top: 160px; right:120px; }
+  .logo-6 { width: 38.867px; height: 35.226px;top: 500px; right:  20px; } 
+  .logo-7 { width: 14.844px; height: 14.844px; top: 190.36px; left: 24.51px; }
+}
+
+@media (max-width: 600px) {
+  .logo-1 { width: 58.889px; height: auto;bottom: 240px; left: 80px;}
+  .logo-2 { width: 70.8px; height: auto; bottom: 220px; right: 70px;  }
+  .logo-3 { width: 40.1px; height: 54.764px; top: 250px; left: 65px; }
+  .logo-5 { width: 62.364px; height: 44.017px; top: 220px; right:70px; }
+  .logo-6 { display: none; }
+  .logo-7 { display: none; }
+}
+
+@media (max-width: 450px) {
+  .logo-1 { width: 48.889px; height: auto;bottom: 240px; left: 80px;}
+  .logo-2 { width: 55.8px; height: auto; bottom: 220px; right: 70px;  }
+  .logo-3 { width: 30.1px; height: auto; top: 200px; left: 45px; }
+  .logo-4 { width: 40.74px; height: auto;top: 120px; left: 43.5vw; }
+  .logo-5 { width: 52.364px; height: auto; top: 200px; right:35px; }
+}
+
+@media (max-height: 800px) and (max-width: 400px) {
+  .logo-1 { display: none; }
+  .logo-2 { display: none; }
+  .logo-3 { display: none; }
+  .logo-4 { display: none; }
+  .logo-5 { display: none; }
+}
+
+
+
+
 
 
 
