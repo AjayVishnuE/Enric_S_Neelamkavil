@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Enric_S_Neelamkavil/static/css/main.23832edf.css",
-    "main.js": "/Enric_S_Neelamkavil/static/js/main.14098a66.js",
+    "main.js": "/Enric_S_Neelamkavil/static/js/main.8fcc2983.js",
     "static/js/453.a83e1ea0.chunk.js": "/Enric_S_Neelamkavil/static/js/453.a83e1ea0.chunk.js",
     "static/media/cce.svg": "/Enric_S_Neelamkavil/static/media/cce.a489aeded86d8009c0fceda9dbc596f0.svg",
     "static/media/BG_spotlight.svg": "/Enric_S_Neelamkavil/static/media/BG_spotlight.7984521f3c77f9a631f0.svg",
     "static/media/Resume.pdf": "/Enric_S_Neelamkavil/static/media/Resume.3ffc957dc87f4a943c17.pdf",
     "static/media/connectwithme_bg.png": "/Enric_S_Neelamkavil/static/media/connectwithme_bg.e05ce08c857ae6b83465.png",
+    "static/media/Posters.png": "/Enric_S_Neelamkavil/static/media/Posters.4c856db307a11433e2a6.png",
     "static/media/sarahstechno.svg": "/Enric_S_Neelamkavil/static/media/sarahstechno.a8dc361b1d4150668be49f8f8d29e107.svg",
+    "static/media/Printables.png": "/Enric_S_Neelamkavil/static/media/Printables.a9433d73ba696ec615b0.png",
     "static/media/background.png": "/Enric_S_Neelamkavil/static/media/background.af33e206d6400de1d02f.png",
     "static/media/unnathi.svg": "/Enric_S_Neelamkavil/static/media/unnathi.cc0f2d69a78ae6843b0f55894d1cef28.svg",
     "static/media/whoami_bg.png": "/Enric_S_Neelamkavil/static/media/whoami_bg.80943a0f74bcc82382ef.png",
+    "static/media/UserInterface.png": "/Enric_S_Neelamkavil/static/media/UserInterface.3921819b65ed0553b0be.png",
+    "static/media/Branding.png": "/Enric_S_Neelamkavil/static/media/Branding.218e612d2c482e687627.png",
+    "static/media/Logos.png": "/Enric_S_Neelamkavil/static/media/Logos.5c0f186dc86216a54551.png",
     "static/media/opengrad.svg": "/Enric_S_Neelamkavil/static/media/opengrad.fc4030cabd74b4e54525967b05f8fb10.svg",
-    "static/media/Posters.png": "/Enric_S_Neelamkavil/static/media/Posters.3576d4aa4287b205ee89.png",
     "static/media/houndelect.svg": "/Enric_S_Neelamkavil/static/media/houndelect.5f371855f8c3beeb4103f43c874ee857.svg",
     "static/media/aproit.svg": "/Enric_S_Neelamkavil/static/media/aproit.f9dea45cdf8385f3089cdbf0eee20b3a.svg",
-    "static/media/Printables.png": "/Enric_S_Neelamkavil/static/media/Printables.a36dd8af7591a51c435e.png",
-    "static/media/Branding.png": "/Enric_S_Neelamkavil/static/media/Branding.79fa4538acb05350e537.png",
-    "static/media/Logos.png": "/Enric_S_Neelamkavil/static/media/Logos.7223d0f174fe09127f14.png",
-    "static/media/UserInterface.png": "/Enric_S_Neelamkavil/static/media/UserInterface.f3980813cbb23febdde1.png",
     "static/media/cholaart.svg": "/Enric_S_Neelamkavil/static/media/cholaart.9446bc8850f709087c5ce67a6d536d47.svg",
     "static/media/µLearn.svg": "/Enric_S_Neelamkavil/static/media/µLearn.62194508c94831d3131ccee7563c913f.svg",
     "static/media/randomlogo_spotlight5.svg": "/Enric_S_Neelamkavil/static/media/randomlogo_spotlight5.522183588e128a751930f8b49c3042a1.svg",
@@ -37,11 +37,11 @@
     "static/media/Frame icon.svg": "/Enric_S_Neelamkavil/static/media/Frame icon.a1a6e8a83804984c657f54c8d34853a8.svg",
     "static/media/whitearrow_spotlight.svg": "/Enric_S_Neelamkavil/static/media/whitearrow_spotlight.3d988a8e8b5b93ba9844ad3681de86ec.svg",
     "main.23832edf.css.map": "/Enric_S_Neelamkavil/static/css/main.23832edf.css.map",
-    "main.14098a66.js.map": "/Enric_S_Neelamkavil/static/js/main.14098a66.js.map",
+    "main.8fcc2983.js.map": "/Enric_S_Neelamkavil/static/js/main.8fcc2983.js.map",
     "453.a83e1ea0.chunk.js.map": "/Enric_S_Neelamkavil/static/js/453.a83e1ea0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23832edf.css",
-    "static/js/main.14098a66.js"
+    "static/js/main.8fcc2983.js"
   ]
 }
