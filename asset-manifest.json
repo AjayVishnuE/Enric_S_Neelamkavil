@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Enric_S_Neelamkavil/static/css/main.fd0c7eed.css",
+    "main.css": "/Enric_S_Neelamkavil/static/css/main.5192a766.css",
     "main.js": "/Enric_S_Neelamkavil/static/js/main.14098a66.js",
     "static/js/453.a83e1ea0.chunk.js": "/Enric_S_Neelamkavil/static/js/453.a83e1ea0.chunk.js",
     "static/media/cce.svg": "/Enric_S_Neelamkavil/static/media/cce.a489aeded86d8009c0fceda9dbc596f0.svg",
@@ -36,12 +36,12 @@
     "static/media/black4sidedvector_spotlight.svg": "/Enric_S_Neelamkavil/static/media/black4sidedvector_spotlight.a229552af47f0b06f1dc714a138ef262.svg",
     "static/media/Frame icon.svg": "/Enric_S_Neelamkavil/static/media/Frame icon.a1a6e8a83804984c657f54c8d34853a8.svg",
     "static/media/whitearrow_spotlight.svg": "/Enric_S_Neelamkavil/static/media/whitearrow_spotlight.3d988a8e8b5b93ba9844ad3681de86ec.svg",
-    "main.fd0c7eed.css.map": "/Enric_S_Neelamkavil/static/css/main.fd0c7eed.css.map",
+    "main.5192a766.css.map": "/Enric_S_Neelamkavil/static/css/main.5192a766.css.map",
     "main.14098a66.js.map": "/Enric_S_Neelamkavil/static/js/main.14098a66.js.map",
     "453.a83e1ea0.chunk.js.map": "/Enric_S_Neelamkavil/static/js/453.a83e1ea0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd0c7eed.css",
+    "static/css/main.5192a766.css",
     "static/js/main.14098a66.js"
   ]
 }
