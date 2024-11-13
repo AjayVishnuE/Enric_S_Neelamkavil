@@ -1,7 +1,7 @@
 import React from 'react';
 import './figmacenter.css'
 import poster from '../../assets/FigmaUi/Posters.png'
-import { Arrow1 } from './imports_fc';
+import { Arrow1, URWriting, DSWriting, DTWriting} from './imports_fc';
 import { FigmaUI_Center } from '../../constants/constants';
 
 function FigmaCenter() {
@@ -21,7 +21,9 @@ function FigmaCenter() {
         </div>
         <div className="figmacenter-second-group">
             <div className='div-ur'> 
-                <p>USER REQU<br></br>-IREMENTS</p>
+                <div style={{transform:"rotate(5.75deg)"}}>
+                    <URWriting/>
+                </div>
             </div>
             {FigmaUI_Center.images.slice(3, 4).map((ImageComponent, index) => (
                 <div key={index + 3} className={`fic figmacenter-inside-container-${index + 3}`}>
@@ -35,7 +37,9 @@ function FigmaCenter() {
                 </div>
             ))}
             <div className='div-ds'> 
-                <p>DESIGN SYSTEMS</p>
+                <div style={{width:"100%",display:"flex",alignItems:"center",justifyContent:"center",transform:"rotate(-11.642deg)"}}>
+                <DSWriting/>
+                </div>
             </div>
             {FigmaUI_Center.images.slice(4, 5).map((ImageComponent, index) => (
                 <div key={index + 4} className={`fic figmacenter-inside-container-${index + 4}`}>
@@ -49,7 +53,9 @@ function FigmaCenter() {
                 </div>
             ))}
             <div className='div-dt'> 
-                <p>DESIGN THINKING</p>
+                <div style={{transform:"rotate(7.75deg)"}}>
+                    <DTWriting/>
+                </div>
             </div>
         </div>
     </div>

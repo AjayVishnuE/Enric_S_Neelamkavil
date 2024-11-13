@@ -22,7 +22,7 @@ function FigmaRightSide() {
       </div>
       <div className='figmaright-div3'>
         <div className='figmaright-div3-div1'>
-            <div style={{display:"flex", gap:"5px", maxWidth:120}}>
+            <div style={{display:"flex", gap:"5px"}}>
                 <p className='figma-right-p'>Frame</p>
                 <FrameDownArrow/>
             </div>

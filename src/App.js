@@ -1,7 +1,7 @@
 import './App.css';
 import {Footer, Navbar, LogoCarousel} from './components';
 import CopyrightsLine from './components/CopyrightsLine/CopyrightsLine';
-import {ConnectSection, Figmaui, MeInSheet, Spotlight, Whoami} from './containers';
+import {ConnectSection, Figmaui, ResumeSection, Spotlight, Whoami} from './containers';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <LogoCarousel/>
       <Whoami/>
       <Figmaui/>
-      <MeInSheet/>
+      <ResumeSection/>
       <ConnectSection/>
       <Footer/>
       <CopyrightsLine/>

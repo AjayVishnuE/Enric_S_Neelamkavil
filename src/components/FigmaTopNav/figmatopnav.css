@@ -25,7 +25,15 @@
 }
 
 .square-1-figma-top-nav:hover{
-    background-color: var(--PortBlue, #3F8AE2);;
+    background-color: var(--PortBlue, #6369705a);;
+}
+
+.square-1-figma-top-nav-1{
+    background-color: var(--PortBlue, #3F8AE2);
+}
+
+.square-1-figma-top-nav-1:hover{
+    background-color: var(--PortBlue, #3F8AE2);
 }
 
 .figma-top-nav-div2{
@@ -76,6 +84,7 @@
     color: white;
     font-size: 12px;
     margin: 0 6px;
+    cursor: pointer;
 }
 
 .figma-top-nav-div3-sharebutton{
@@ -84,6 +93,7 @@
     margin: 0 6px 0 10px;
     height: 27px;
     flex-direction: column;
+    cursor: pointer;
     border-radius: 5px;
     background-color: var(--PortBlue, #3F8AE2);
     justify-content: center;

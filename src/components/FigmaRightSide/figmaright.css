@@ -26,9 +26,10 @@
     font-weight: 600;
 }
 
-.figmaright-div1-p1, .figmaright-div1-p2, .figmaright-div1-p2{
-    font-size: 12.687px;
+.figmaright-div1-p1, .figmaright-div1-p2, .figmaright-div1-p3{
+    font-size: 13.687px;
     font-family: "Red Hat Display";
+    cursor: pointer;
     font-style: normal;
     line-height: 21.363px; /* 145.455% */
     letter-spacing: 0.073px;
@@ -63,10 +64,11 @@
 
 .figmaright-div3-div1{
     height: 40px;
+    margin-top: 2PX;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    gap: 55px;
+    justify-content:space-between;
+    gap: 60px;
 
 }
 
@@ -253,4 +255,10 @@
         padding-left: 0px;
     }
     
+}
+
+@media (max-width:1200px) {
+    .figmaright-overall-container{
+        display: none;
+    }
 }

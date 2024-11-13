@@ -43,7 +43,7 @@ export const RectangleHor = () => <svg xmlns="http://www.w3.org/2000/svg" width=
 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.30046 16.8706L1.96527 16.8706V15.5354V7.52428V6.18909H3.30046H19.3227H20.6579V7.52427V15.5354V16.8706H19.3227H3.30046ZM19.3227 15.5354V7.52427L3.30046 7.52428L3.30046 15.5354L19.3227 15.5354Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameZoomOut = () => <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 43 43" fill="none">
+export const FrameZoomOut = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 43 43" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5823 12.6557L16.451 17.5244H13.3895V18.8595H18.0627H18.7303V18.192V13.5188H17.3951V16.5802L12.5264 11.7115L11.5823 12.6557ZM26.3503 17.5244L31.219 12.6557L30.2749 11.7115L25.4062 16.5802V13.5188H24.071V18.192V18.8595H24.7386H29.4118V17.5244H26.3503ZM26.3503 25.5355L31.219 30.4042L30.2749 31.3483L25.4062 26.4796V29.541H24.071V24.8679V24.2003H24.7386H29.4118V25.5355H26.3503ZM16.451 25.5355L11.5823 30.4042L12.5264 31.3483L17.3951 26.4796V29.541H18.7303V24.8679V24.2003H18.0627H13.3895V25.5355H16.451Z" fill="#1A1A1A"/>
 </svg>
 
@@ -63,7 +63,7 @@ export const FrameH = () => <svg width="9" height="12" viewBox="0 0 9 12" fill="
 <path d="M0.0066629 11.6189V0.937394H1.30013V5.694H6.99554V0.937394H8.289V11.6189H6.99554V6.84143H1.30013V11.6189H0.0066629Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameOption = () => <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
+export const FrameOption = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M24.071 19.3115V16.6412C24.071 15.1664 22.8754 13.9708 21.4006 13.9708C19.9258 13.9708 18.7302 15.1664 18.7302 16.6412V19.3115H17.395V16.6412C17.395 14.429 19.1884 12.6356 21.4006 12.6356C23.6128 12.6356 25.4061 14.429 25.4061 16.6412V19.3115H24.071ZM25.4062 24.6523H24.071V27.3226C24.071 28.7974 22.8754 29.993 21.4006 29.993C19.9258 29.993 18.7302 28.7974 18.7302 27.3226V24.6523H17.3951V27.3226C17.3951 29.5348 19.1884 31.3282 21.4006 31.3282C23.6128 31.3282 25.4062 29.5348 25.4062 27.3226V24.6523Z" fill="#1A1A1A"/>
 </svg>
 
@@ -75,7 +75,7 @@ export const FrameCorner = () => <svg xmlns="http://www.w3.org/2000/svg" width="
 <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8985 17.7024H23.5578C20.6082 17.7024 18.217 20.0935 18.217 23.0431V28.3839H16.8818V23.0431C16.8818 19.3561 19.8708 16.3672 23.5578 16.3672H28.8985V17.7024Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameFullscreen = () => <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
+export const FrameFullscreen = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7247 15.032H15.3923H18.7303V16.3672H16.0599V19.0375H14.7247V15.6996V15.032ZM24.071 15.032H27.409H28.0766V15.6996V19.0375H26.7414V16.3672H24.071V15.032ZM16.0599 27.0487V24.3783H14.7247V27.7163V28.3839H15.3923H18.7303V27.0487H16.0599ZM28.0766 24.3783V27.7163V28.3839H27.409H24.071V27.0487H26.7414V24.3783H28.0766Z" fill="#1A1A1A"/>
 </svg>
 
@@ -83,23 +83,23 @@ export const FrameClipContent = () => <svg xmlns="http://www.w3.org/2000/svg" wi
 <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3853 14.7579H16.7038C15.9664 14.7579 15.3686 15.3557 15.3686 16.0931V26.7746C15.3686 27.512 15.9664 28.1098 16.7038 28.1098H27.3853C28.1227 28.1098 28.7205 27.512 28.7205 26.7746V16.0931C28.7205 15.3557 28.1227 14.7579 27.3853 14.7579ZM16.7038 13.4227C15.229 13.4227 14.0334 14.6183 14.0334 16.0931V26.7746C14.0334 28.2494 15.229 29.445 16.7038 29.445H27.3853C28.8601 29.445 30.0557 28.2494 30.0557 26.7746V16.0931C30.0557 14.6183 28.8601 13.4227 27.3853 13.4227H16.7038Z" fill="#1A1A1A"/>
 </svg>
 
-export const FramePlus = () => <svg xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
+export const FramePlus = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="43" height="44" viewBox="0 0 43 44" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M20.7331 21.1906V14.5146H22.0683V21.1906H28.7442V22.5258H22.0683V29.2017H20.7331V22.5258H14.0571V21.1906H20.7331Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameMinus = () => <svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43" fill="none">
+export const FrameMinus = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M28.7442 22.1001H14.0571V20.7649H28.7442V22.1001Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameFillIcon1 = () => <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+export const FrameFillIcon1 = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6663 17.7008C15.6663 18.8069 16.5629 19.7036 17.669 19.7036C18.7751 19.7036 19.6718 18.8069 19.6718 17.7008C19.6718 16.5947 18.7751 15.698 17.669 15.698C16.5629 15.698 15.6663 16.5947 15.6663 17.7008ZM23.6774 17.7008C23.6774 18.8069 24.5741 19.7036 25.6802 19.7036C26.7863 19.7036 27.6829 18.8069 27.6829 17.7008C27.6829 16.5947 26.7863 15.698 25.6802 15.698C24.5741 15.698 23.6774 16.5947 23.6774 17.7008ZM25.6802 27.7147C24.5741 27.7147 23.6774 26.818 23.6774 25.7119C23.6774 24.6058 24.5741 23.7091 25.6802 23.7091C26.7863 23.7091 27.6829 24.6058 27.6829 25.7119C27.6829 26.818 26.7863 27.7147 25.6802 27.7147ZM15.6663 25.7119C15.6663 26.818 16.5629 27.7147 17.669 27.7147C18.7751 27.7147 19.6718 26.818 19.6718 25.7119C19.6718 24.6058 18.7751 23.7091 17.669 23.7091C16.5629 23.7091 15.6663 24.6058 15.6663 25.7119Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameFillIcon2 = () => <svg xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewBox="0 0 44 43" fill="none">
+export const FrameFillIcon2 = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewBox="0 0 44 43" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6747 25.4379C18.604 25.4379 15.9038 23.8434 14.3601 21.4323C15.9038 19.0212 18.604 17.4267 21.6747 17.4267C24.7454 17.4267 27.4456 19.0212 28.9893 21.4323C27.4456 23.8434 24.7454 25.4379 21.6747 25.4379ZM21.6747 16.0916C25.5174 16.0916 28.8546 18.256 30.5336 21.4323C28.8546 24.6086 25.5174 26.7731 21.6747 26.7731C17.832 26.7731 14.4948 24.6086 12.8158 21.4323C14.4948 18.256 17.832 16.0916 21.6747 16.0916ZM21.6751 24.1028C23.1499 24.1028 24.3455 22.9072 24.3455 21.4324C24.3455 19.9576 23.1499 18.762 21.6751 18.762C20.2003 18.762 19.0047 19.9576 19.0047 21.4324C19.0047 22.9072 20.2003 24.1028 21.6751 24.1028Z" fill="#1A1A1A"/>
 </svg>
 
-export const FrameFillIcon3 = () => <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+export const FrameFillIcon3 = () => <svg style={{cursor: "pointer"}} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M29.0295 21.8929C29.771 21.1886 30.4114 20.3789 30.9267 19.488H29.3456C27.6559 21.9103 24.8496 23.4936 21.6744 23.4936C18.4991 23.4936 15.6928 21.9103 14.0032 19.488H12.422C12.9373 20.379 13.5778 21.1887 14.3195 21.8931L12.1901 24.0226L13.1342 24.9667L15.347 22.7538C16.296 23.4526 17.3648 23.9984 18.5169 24.3544L17.6931 27.3201L18.9796 27.6775L19.8157 24.6676C20.4193 24.7735 21.0404 24.8288 21.6744 24.8288C22.3083 24.8288 22.9294 24.7736 23.533 24.6676L24.3691 27.6775L25.6555 27.3201L24.8317 24.3544C25.984 23.9984 27.0529 23.4526 28.0019 22.7536L30.2151 24.9667L31.1592 24.0226L29.0295 21.8929Z" fill="#1A1A1A"/>
 </svg>
 

@@ -46,7 +46,7 @@ function FigmaLeftSide() {
         <div className='figmaleft-div3-div5'>
             <RightSolidArrow/>
             <DashedSquare/>
-            <p>Works List</p>
+            <p className='figmaleft-div3-div5-p'>Works List</p>
         </div>
         <div className='figmaleft-div3-div6'>
         <div className='figmaleft-div3-div6-divinside'>

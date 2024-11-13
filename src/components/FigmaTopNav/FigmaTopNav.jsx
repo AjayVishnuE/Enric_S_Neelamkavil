@@ -13,7 +13,7 @@ function FigmaTopNav() {
         <div className='figma-top-nav-container'>
             <div className='figma-top-nav-div1'>
                 {imageset.map((VectorComponent, index) => (
-                    <div className="square-1-figma-top-nav">
+                    <div className={`square-1-figma-top-nav square-1-figma-top-nav-${index}`}>
                         <React.Fragment key={index}>
                             <VectorComponent />
                             {index <= 4 && <Down_Arrow />}
