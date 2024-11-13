@@ -11,22 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-body, html {
-  overflow-x: hidden; /* Prevent horizontal scrollbar */
-}
-/* Hide scrollbar for Chrome, Safari and Opera */
-/* Hide scrollbar for Chrome, Safari and Opera */
-html::-webkit-scrollbar {
-  display: none;
+/* Targets the scrollbar for Firefox */
+* {
+  scrollbar-width: thin;            /* 'auto' or 'thin' */
+  scrollbar-color: lightgray #f0f0f0; /* thumb and track color */
 }
 
 html {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
   overflow-y: scroll;
-  scroll-behavior: smooth;  /* Important for keeping layout stable even without a scrollbar */
+  scroll-behavior: smooth;  
 }
 
+body, html {
+  overflow-x: hidden; 
+}
+
+html::-webkit-scrollbar {
+  width: 2px;  
+  height: 2px; 
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: lightgray;  
+  border-radius: 10px;         
+}
+
+html::-webkit-scrollbar-track {
+  background: #f0f0f0;       
+}
 
 .image-square-frame-always{
   position: relative; 

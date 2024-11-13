@@ -11,8 +11,8 @@
 }
 
 .navbar-items-container{
-    border-top: 0.5px solid var(--variable-collection-portgrey);
-    border-bottom: 0.5px solid var(--variable-collection-portgrey);
+    border-top: 0.1px solid var(--variable-collection-portgrey);
+    border-bottom: 0.1px solid var(--variable-collection-portgrey);
     height: 18px;
     padding-left: 50px;
     width: 100%;
@@ -27,8 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left:0.5px solid var(--variable-collection-portgrey);
-    border-right:0.5px solid var(--variable-collection-portgrey);
+    border-left:0.1px solid var(--variable-collection-portgrey);
+    border-right:0.1px solid var(--variable-collection-portgrey);
 }
 
 #nav-text {

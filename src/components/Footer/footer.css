@@ -195,7 +195,8 @@
 @media (max-width:900px) {
     .footer-container{
         flex-direction: column;
-        gap: 30px;
+        gap: 20px;
+        padding-bottom: 40px;
     }
 }
 
@@ -232,6 +233,7 @@
 @media (max-width:550px) {
     .footer-container{
         padding: 15px;
+        padding-bottom: 30px;
     }
     .footer-insider-div1{
         gap: 7%

@@ -17,7 +17,7 @@ import spotlightlogo5 from '../../assets/Spotlight/randomlogo_spotlight5.svg'
 function Spotlight(){
     let x=1;
     return (
-        <div id="spotlight" className="spotlight">
+        <div id="Home" className="spotlight">
             <Logos_spotlight/>
             <div className="half-rectangle-left-container">
                 <div className="half-rectangle-left">

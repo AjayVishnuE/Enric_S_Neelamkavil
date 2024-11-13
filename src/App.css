@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
 
 :root {
-    --variable-collection-portblack: rgba(26, 26, 26, 1);
-    --variable-collection-portblue: rgba(63, 138, 226, 1);
-    --variable-collection-portgreen: rgba(143, 255, 0, 1);
-    --variable-collection-portgrey: rgba(204, 204, 204, 1);
-    --variable-collection-portgrey2: rgba(170, 170, 170, 1);
-    --variable-collection-portred: rgba(253, 46, 53, 1);
-    --variable-collection-portwhite: rgba(255, 255, 255, 1);
+    --variable-collection-portblack: #1a1a1a;
+    --variable-collection-portblue: #3f8ae2;
+    --variable-collection-portgreen: #8fff00;
+    --variable-collection-portgrey: #cccccc;
+    --variable-collection-portgrey2: #aaaaaa;
+    --variable-collection-portred: #fd2e35;
+    --variable-collection-portwhite: #ffffff;
     }
     
 *{

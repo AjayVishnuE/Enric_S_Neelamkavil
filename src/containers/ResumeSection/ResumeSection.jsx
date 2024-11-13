@@ -6,7 +6,7 @@ import pdfFile from '../../assets/PDF/Resume.pdf';
 
 function ResumeSection() {
   return (
-        <div id="resumesection-overall-container" className='resumesection-overall-container'>
+        <div id="Resume" className='resumesection-overall-container'>
             <p className='resumesection-h1'>ME IN A SHEET</p>
             <div className='resumesection-2-page-resume'>
                 <Resume1/>

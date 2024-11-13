@@ -3,7 +3,7 @@ import "./navbar.css";
 import {navdataset} from "../../constants/constants";
 
 function Navbar(){
-    const redirectsec=["#spotlight", "#whoami-overall-container", "#FigmaUIContainer", "#resumesection-overall-container", "#connectwithme-container"]
+    const redirectset = ["#Home","#About","#Works","#Resume","#Contact"];
     return (
         <div className="navbar">
             <div className="navbar-items-container">
@@ -11,7 +11,7 @@ function Navbar(){
                     navdataset.map((item,index) => {
                         return(
                             <div className="navbar-items">   
-                                <a href={redirectsec[index]}>
+                                <a href={redirectset[index]}>
                                     <h1 id="nav-text" className="navbar-item-1" >{item}</h1>
                                 </a>
                             </div>

@@ -263,7 +263,11 @@ margin-top: 250px;
     }
 }
 @media (max-height: 800px) and (max-width: 400px) {
-    .rc-container {
-        margin-top: -0px;
+    .helloloopcontainer{
+        margin-top: 50%;    
     }
+    .rc-container {
+        margin-top: 110px;
+    }
+
 }

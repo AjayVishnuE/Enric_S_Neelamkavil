@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'NanumPen Script';
-    src: url('../../assets/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf') format('truetype'); /* Adjust the path and font format */
-    font-weight: normal;
-    font-style: normal;
-}
-
 .figmacenter-overall-container{
     background-color: #F0F0F0;
     width: 64%;
@@ -32,7 +25,7 @@
 }
 
 .figmacenter-image{
-    height: 200px;
+    height: 186px;
     transition: filter 0.3s ease;
     filter: grayscale(100%);
 }
@@ -176,8 +169,7 @@
     }
 
     .figmacenter-image{
-        height: auto;
-        width: 150px;
+        height: 150px;
     }
 
     .div-dt, .div-ur, .div-ds{
@@ -201,13 +193,9 @@
     }
 
     .figmacenter-image{
-        height: auto;
-        width: 120px;
+        height: 120px;
     }
 
-    .div-dt, .div-ur, .div-ds{
-        display: none;
-    }
 }
 
 @media (max-width:500px) {
@@ -217,7 +205,7 @@
     }
 
     .figmacenter-main-h{
-        font-size: 30px;
+        font-size: 24px;
         margin-bottom: 30px;
     }
 
@@ -236,27 +224,35 @@
     .fic{
         margin-bottom: 30px;
     }
+
     .figmacenter-image{
-        height: auto;
-        width: 250px;
+        height: 200px;
     }
 
     .div-dt, .div-ur, .div-ds{
         display: none;
     }
 
-    .fdd, .figmacenter-desc-div-0, .figmacenter-desc-div-1,.figmacenter-desc-div-2, .figmacenter-desc-div-4{
-        position:absolute;
-        right:-20px;
+    .figmacenter-desc-div-0{
+        right:-40px;
+        bottom: -10px;
+    }
+    .figmacenter-desc-div-1{
+        right:-14px;
+        bottom: -10px;
+    }
+
+    .figmacenter-desc-div-2{
+        right:-0px;
         bottom: -10px;
     }
     .figmacenter-desc-div-3{
-        right:-50px;
+        right:-75px;
         bottom: -10px;
     }
 
     .figmacenter-desc-div-4{
-        right:-5px;
+        right:0px;
         bottom: -10px;
     }
 

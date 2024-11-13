@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    color: var(--PortBlack, #1A1A1A);
+    color: var(--variable-collection-portblack);
     text-align: center;
     font-family: "Red Hat Display";
     font-size: 15px;
@@ -18,10 +18,10 @@
 }
 
 .copyrights-name:hover{
-    color:var(--portBlue, #3F8AE2)
+    color:var(--variable-collection-portblue)
 }
 
-@media (max-width:500px) {
+@media (max-width:1200px) {
     .copyrights-line{
         font-size: 10px;
     }

@@ -41,7 +41,7 @@ function ConnectSection() {
         };
     }, []);
     return (
-        <div id="connectwithme-container" className='connectwithme-container'>
+        <div id="Contact" className='connectwithme-container'>
             <p className='connectwithme-h'>CONNECT WITH ME</p>
             <p className='connectwithme-c1'>Are you looking for the <label style={{color:"#3F8AE2", fontWeight:"500"}}>perfect design</label>?</p>
             <p className='connectwithme-c2'>Then you’re in the right place. Get the best designs you’re looking for.<br></br> Just <label style={{color:"#3F8AE2", fontWeight:"500"}}>reach out </label>and let me know!</p>

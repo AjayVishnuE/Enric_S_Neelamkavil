@@ -13,7 +13,7 @@ function Whoami() {
   const firstLine = ['YEARS OF', 'COMPLETED', 'SATISFIED'];
   const secondLine = ['EXPERIENCE', 'WORKS', 'CLIENTS'];
   return (
-    <div id="whoami-overall-container" className='whoami-overall-container'>  
+    <div id="About" className='whoami-overall-container'>  
       <h1 className='whoamih1'>WHO AM I</h1>
       <img className='waiul' src={waiul} alt="" />
       <h2 className='cwh2'>I am currently working as {whoamidata.role_Abbreviation} <label style={{color:"#3F8AE2"}}> {whoamidata.role}</label> at {whoamidata.organisation}.</h2>
