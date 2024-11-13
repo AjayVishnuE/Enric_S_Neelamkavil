@@ -1,7 +1,7 @@
 import React from 'react'
 import './whoami.css'
 import { whoamidata } from '../../constants/constants';
-
+import pdfFile from '../../assets/PDF/Resume.pdf';
 import be from "../../assets/WhoAmI/Behance.png";
 import dr from "../../assets/WhoAmI/Dribbble.png";
 import li from "../../assets/WhoAmI/Linkedin.png";
@@ -13,7 +13,7 @@ function Whoami() {
   const firstLine = ['YEARS OF', 'COMPLETED', 'SATISFIED'];
   const secondLine = ['EXPERIENCE', 'WORKS', 'CLIENTS'];
   return (
-    <div className='whoami-overall-container'>  
+    <div id="whoami-overall-container" className='whoami-overall-container'>  
       <h1 className='whoamih1'>WHO AM I</h1>
       <img className='waiul' src={waiul} alt="" />
       <h2 className='cwh2'>I am currently working as {whoamidata.role_Abbreviation} <label style={{color:"#3F8AE2"}}> {whoamidata.role}</label> at {whoamidata.organisation}.</h2>
@@ -48,11 +48,12 @@ function Whoami() {
           <p className='para-hg'>{whoamidata.award_description}</p>
         </div>
       </div>
-      <div className='dwnld_me_btn'>
-        <p style={{margin:0}}>DOWNLOAD ME</p>
-        <img height="18px" src={dwnld} alt="" />
-      </div>
-
+        <div className='dwnld_me_btn'>
+          <a href={pdfFile} download="Resume Enric S Neelamkavil.pdf" target='_blank'>
+              <p style={{margin:0}}>DOWNLOAD ME</p>
+              <img height="18px" src={dwnld} alt="" />
+          </a>
+        </div>
 
 
 

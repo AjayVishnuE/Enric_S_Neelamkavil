@@ -22,7 +22,7 @@
     align-items: center;   
 }
 
-.navbar-items{
+.navbar-items > a{
     height: 80px;
     display: flex;
     justify-content: center;

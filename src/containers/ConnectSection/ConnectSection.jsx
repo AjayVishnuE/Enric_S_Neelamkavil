@@ -41,11 +41,11 @@ function ConnectSection() {
         };
     }, []);
     return (
-        <div className='connectwithme-container'>
+        <div id="connectwithme-container" className='connectwithme-container'>
             <p className='connectwithme-h'>CONNECT WITH ME</p>
             <p className='connectwithme-c1'>Are you looking for the <label style={{color:"#3F8AE2", fontWeight:"500"}}>perfect design</label>?</p>
-            <p className='connectwithme-c2'>Then you’re in the right place. Get the best designs you’re looking for. Just <label style={{color:"#3F8AE2", fontWeight:"500"}}>reach out </label>and let me know!</p>
-            <p className='image-square-frame connectwithme-email'><span></span>{ConnectSectionData.email}</p>
+            <p className='connectwithme-c2'>Then you’re in the right place. Get the best designs you’re looking for.<br></br> Just <label style={{color:"#3F8AE2", fontWeight:"500"}}>reach out </label>and let me know!</p>
+            <p className='image-square-frame-always connectwithme-email'><span></span>{ConnectSectionData.email}</p>
             <p className='connectwithme-phone'><label ref={label1Ref} className='cwm-phone-label-1'>{ConnectSectionData.phone_conutry_code}&nbsp;</label><label ref={label2Ref} className='cwm-phone-label-2'>{ConnectSectionData.phone}</label></p>
             <div className='connectwithme-logos-container'>
                 <a href={ConnectSectionData.linkedin.link}>

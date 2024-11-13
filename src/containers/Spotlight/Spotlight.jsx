@@ -3,6 +3,7 @@ import "./spotlight.css";
 import { spotlightdata } from "../../constants/constants";
 import buttonlogo1 from '../../assets/Spotlight/blackdownload_spotlight.svg';
 import buttonlogo2 from '../../assets/Spotlight/whitearrow_spotlight.svg';
+import pdfFile from '../../assets/PDF/Resume.pdf';
 import { Hellotextloop, Logos_spotlight, Namecomponent, Rolescomponent} from "../../components";
 
 import spotlightlogo1 from '../../assets/Spotlight/randomlogo_spotlight1.svg'
@@ -16,7 +17,7 @@ import spotlightlogo5 from '../../assets/Spotlight/randomlogo_spotlight5.svg'
 function Spotlight(){
     let x=1;
     return (
-        <div className="spotlight">
+        <div id="spotlight" className="spotlight">
             <Logos_spotlight/>
             <div className="half-rectangle-left-container">
                 <div className="half-rectangle-left">
@@ -34,7 +35,7 @@ function Spotlight(){
             </div>
             <div className="button-overall-container1">
                 <div className="leftrightlinediv1">
-                    <a href="https://drive.google.com/file/d/1Y1e33xAm5bVx9mffl4vmJYleyFL1k_5V/view" target='_blank'>
+                    <a href={pdfFile} download="Resume Enric S Neelamkavil.pdf" target='_blank'>
                         <div className="downloadbutton">
                             <p style={{margin:"0px",}}>DOWNLOAD CV</p>
                             <img src={buttonlogo1} alt="downloadlogo" />

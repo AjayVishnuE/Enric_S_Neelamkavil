@@ -4,7 +4,7 @@ import { FigmaTopNav, FigmaLeftSide, FigmaCenter, FigmaRightSide } from '../../c
 
 export default function Figmaui() {
   return (
-    <div>
+    <div id="FigmaUIContainer">
         <FigmaTopNav/>
         <div className='FigmaUIBody'>
             <FigmaLeftSide/>

@@ -32,7 +32,7 @@ function LogoCarousel() {
     }, []);
 
     return (
-        <div className="right-slider">
+        <div id="right-slider" className="right-slider">
             <div className="right-slide-track" ref={slideTrackRef}>
                 {duplicatedImages.map((src, index) => (
                     <div className="right-slide" key={index}>

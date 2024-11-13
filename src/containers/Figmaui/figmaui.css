@@ -1,3 +1,7 @@
+#FigmaUIContainer{
+    padding-top: 80px;
+}
+
 .FigmaUIBody{
     display: flex;
     width: 100%;

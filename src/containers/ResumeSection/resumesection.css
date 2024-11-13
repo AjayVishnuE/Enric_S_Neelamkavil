@@ -10,7 +10,7 @@
     background-size: cover, auto, auto;
     background-repeat: no-repeat, repeat, repeat;
     background-position: center, left center, left center; 
-    padding: 20px 0px;
+    padding: 30px 0px;
 
 }
 
@@ -29,9 +29,11 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 0; 
+    margin-bottom: 50px;
 }
 
-.resumesection-download-resume-btn{
+.resumesection-download-resume-btn > a{
     margin: 40px 0;
     background-color: transparent;
     display: inline-flex;

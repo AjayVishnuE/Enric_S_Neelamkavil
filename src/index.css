@@ -23,7 +23,8 @@ html::-webkit-scrollbar {
 html {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  overflow-y: scroll;  /* Important for keeping layout stable even without a scrollbar */
+  overflow-y: scroll;
+  scroll-behavior: smooth;  /* Important for keeping layout stable even without a scrollbar */
 }
 
 

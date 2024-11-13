@@ -8,7 +8,8 @@
     linear-gradient(to bottom, var(--variable-collection-portgrey) 0.5px, transparent 0.5px);
     background-size: cover, auto, auto;
     background-repeat: no-repeat, repeat, repeat;
-    background-position: center, left center, left center; 
+    background-position: center; 
+    padding-top: 20px;
 }
 
 .connectwithme-h{
@@ -55,9 +56,8 @@
     padding: 0;
     color: var(--PortBlack, #1A1A1A);
     text-align: center;
-
     font-family: "Red Hat Display";
-    font-size: 60.642px;
+    font-size: 55.642px;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; /* 66.642px */
@@ -66,35 +66,29 @@
 .connectwithme-phone{
     margin: 0;
     padding: 0 0 20px 0;
-}
-
-.cwm-phone-label-1 {
-    -webkit-text-stroke: 1px #3F8AE2; 
     font-family: "Red Hat Display", sans-serif; 
-    font-size: 73.683px;
-    color: transparent;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100%; /* 83.683px */
-}
-
-.cwm-phone-label-2 {
-    text-align: center;
-    -webkit-text-stroke: 1px #1A1A1A; 
-    font-family: "Red Hat Display", sans-serif; 
-    font-size: 73.683px;
+    font-size: 65.683px;
     color: transparent;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; 
 }
 
+.cwm-phone-label-1 {
+    -webkit-text-stroke: 1px #3F8AE2; 
+}
+
+.cwm-phone-label-2 {
+    -webkit-text-stroke: 1px #1A1A1A; 
+}
+
 .connectwithme-logos-container{
     margin: 0;
     padding: 0;
-    height: min-content;
+    height:65px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
     justify-content: center;
     gap: 100px;
     border: 1px solid #3F8AE2;
@@ -119,4 +113,117 @@
 
 .color-change-svg:hover rect {
     stroke: #3F8AE2; 
+}
+
+@media (max-width:1200px) {
+    .connectwithme-h{
+        font-size: 40px;
+        margin: 60px 0 30px 0;
+        padding: 0;
+    }
+
+    .connectwithme-c1{
+        font-size: 25px;
+        padding: 0 0 20px 0;
+    }
+
+    .connectwithme-c2{
+        font-size: 18px;
+    }
+
+    .connectwithme-email{
+        margin: 20px;
+        font-size: 50px;
+    }
+
+    .connectwithme-phone{
+        font-size: 60px;
+    }
+
+    .connectwithme-logos-container{
+        gap: 60px;
+        height: 60px;
+        margin-bottom: 30px;
+    }
+
+    .connectwithme-logos-container > a > svg{
+        margin-top: 2px;
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width:900px) {
+    .connectwithme-h{
+        margin: 50px 0 25px 0;
+        font-size: 35px;
+    }
+
+    .connectwithme-c1{
+        font-size: 22px;
+    }
+
+    .connectwithme-c2{
+        font-size:17px ;
+    }
+
+    .connectwithme-email{
+        font-size:42px;
+        margin: 30px 0;
+    }
+
+    .connectwithme-phone{
+        font-size:50px;
+    }
+
+    .connectwithme-logos-container{
+        height: 45px;
+        margin-bottom: 25px;
+        gap:55px;
+    }
+
+    .connectwithme-logos-container > a > svg{
+        height: 45px;
+        margin-top: 10px;
+        width: 45px;
+    }
+}
+
+@media (max-width:500px) {
+    .connectwithme-h{
+        margin: 50px 0 25px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .connectwithme-c1{
+        text-align: center;
+        font-size: 17px;
+        padding: 0 0 10px 0;
+    }
+
+    .connectwithme-c2{
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .connectwithme-email{
+        font-size: 150%;
+    }
+
+    .connectwithme-phone{
+        font-size: 40px;
+    }
+
+    .connectwithme-logos-container{
+        gap: 12px;
+        height: 40px;
+    }
+
+    .connectwithme-logos-container > a > svg{
+        width: 40px;
+        margin-top: 12px;
+        height: 40px;
+    }
 }

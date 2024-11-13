@@ -65,11 +65,10 @@
 .figmaright-div3-div1{
     height: 40px;
     margin-top: 2PX;
+    padding: 0 10px 0 2px ;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    gap: 60px;
-
 }
 
 .figma-right-p{
@@ -84,7 +83,7 @@
 }
 
 .figmaright-div3-div2{
-    padding-left: 20px;
+    padding: 0 10px 0 20px ;
     height: 30px;
     display: flex;
     align-items: center;
@@ -95,7 +94,17 @@
     padding-left: 4px;
 }
 
-.FrameCompDiv1234{
+.FrameCompDiv12{
+    margin-left: 0px;
+    display: flex;
+    min-width: 100px;
+    align-items: center;
+    justify-content:left;
+    gap: 15px;
+}
+
+.FrameCompDiv34{
+    margin-left: -3px;
     display: flex;
     min-width: 100px;
     align-items: center;
@@ -136,7 +145,7 @@
 }
 
 .figmaright-div3-div5{
-    padding-left: 17px;
+    padding-left: 20px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -149,6 +158,7 @@
 }
 
 .FrameCompDiv5{
+    margin-left: -3px;
     display: flex;
     align-items: center;
     min-width: 100px;
@@ -156,6 +166,7 @@
 }
 
 .FrameCompDiv6{
+    margin-left: -7px;
     display: flex;
     min-width: 100px;
     align-items: center;

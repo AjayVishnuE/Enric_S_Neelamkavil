@@ -27,23 +27,23 @@ function FigmaRightSide() {
                 <FrameDownArrow/>
             </div>
             <div style={{display:"flex", alignItems:"center", justifyContent:'left', gap:"5px"}}>
-                <div style={{backgroundColor:"var(--PortGrey, #CCC)",display:"flex", alignItems:"center",justifyContent:'center', padding:"5px 4px", borderRadius:'5PX'}}>
+                <div style={{backgroundColor:"var(--PortGrey, #CCC)",display:"flex", alignItems:"center",justifyContent:'center', padding:"5px 4px", borderRadius:'5px'}}>
                     <RectangleVer/>
                 </div>
-                <div style={{display:"flex", alignItems:"center", marginRight:"10px"}}>
+                <div style={{display:"flex", alignItems:"center", }}>
                     <RectangleHor/>
                 </div>
-                <div style={{display:"flex", alignItems:"center", width:50, marginLeft:"18px"}}>
-                        <FrameZoomOut/>                
-                </div>
+            </div>
+            <div style={{display:"flex", alignItems:"center", }}>
+                    <FrameZoomOut/>                
             </div>
         </div>
         <div className='figmaright-div3-div2'>
-            <div className='FrameCompDiv1234'>
+            <div className='FrameCompDiv12'>
                 <FrameX/>
                 <input className="figmaright-input" type="text" defaultValue="3200"></input>
             </div>
-            <div className='frameycomp FrameCompDiv1234'>
+            <div className='frameycomp FrameCompDiv12'>
                 <FrameY/>
                 <input className="figmaright-input" type="text" defaultValue="184"></input>
             </div>
@@ -52,15 +52,15 @@ function FigmaRightSide() {
             </div>
         </div>
         <div className='figmaright-div3-div3'>
-            <div className='FrameCompDiv1234'>
+            <div className='FrameCompDiv34'>
                 <FrameW/>
                 <input className="figmaright-input" type="text" defaultValue="164"></input>
             </div>
-            <div className='FrameCompDiv1234'>
+            <div className='FrameCompDiv34'>
                 <FrameH/>
                 <input className="figmaright-input" type="text" defaultValue="64"></input>
             </div>
-            <div style={{marginLeft:'-18px'}}>
+            <div style={{marginLeft:'-23px'}}>
                 <FrameOption/>
             </div>
         </div>
@@ -73,7 +73,9 @@ function FigmaRightSide() {
                 <FrameCorner/>
                 <input className="figmaright-input" type="text" defaultValue="0"></input>
             </div>
-            <FrameFullscreen/>
+            <div style={{marginLeft:'-7px'}}>
+                <FrameFullscreen/>
+            </div>
         </div>
         <div className='figmaright-div3-div5'>
             <input type="checkbox" />
